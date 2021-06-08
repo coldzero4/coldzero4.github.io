@@ -1,0 +1,22 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Web server for my website",
+  "main": "main.js",
+  "scripts": {
+    "start": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldzero4/coldzero4.github.io.git"
+  },
+  "author": "coldzero4 (Raretendo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldzero4/coldzero4.github.io/issues"
+  },
+  "homepage": "https://github.com/coldzero4/coldzero4.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
