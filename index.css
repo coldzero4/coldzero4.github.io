@@ -10,7 +10,10 @@ innerHeight: 657
     padding: 0px;
 }
 
-#topbar {
+div#topbar {
+    margin: 0px;
+    padding: 0px;
+    
     position: fixed;
     background-color: rgb(255, 83, 83);
     width: 100%;
