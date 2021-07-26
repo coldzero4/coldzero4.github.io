@@ -16,11 +16,6 @@ body {
     padding: 0px;
 }
 
-h2 {
-    position: relative;
-    top: 35px;
-}
-
 div#topbar {
     margin: 0px;
     padding: 0px;
@@ -28,5 +23,5 @@ div#topbar {
     position: fixed;
     background-color: rgb(255, 83, 83);
     width: 100%;
-    height: 30px;
+    height: 50px;
 }
