@@ -25,3 +25,8 @@ div#topbar {
     width: 100%;
     height: 40px;
 }
+
+#topbarTxt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+}
