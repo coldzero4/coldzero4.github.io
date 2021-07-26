@@ -16,6 +16,10 @@ body {
     padding: 0px;
 }
 
+h2 {
+    position: relative;
+}
+
 div#topbar {
     margin: 0px;
     padding: 0px;
