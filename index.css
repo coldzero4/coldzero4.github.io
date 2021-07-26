@@ -28,5 +28,6 @@ div#topbar {
 
 #topbarTxt {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
