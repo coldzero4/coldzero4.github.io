@@ -5,6 +5,11 @@ innerHeight: 657
 
 */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #topbar {
     position: fixed;
     background-color: rgb(255, 83, 83);
