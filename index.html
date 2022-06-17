@@ -1,28 +1,111 @@
-<html>
+<!DOCTYPE html>
+    <html lang="en">
     <head>
-        <title>Raretendo | Home</title>
-        <link rel="icon" href="img/logo.png">
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:site_name" content="Raretendo">
         <meta property="og:title" content="Raretendo | Programmer">
-        <meta property="og:description" content="Game developer, Full stack developer and Application Developer. I have been creating games on the Roblox platform and currently branching off to the Unity game engine. I have been programming for years and have always had an interest for it">
-        <meta property="og:image" content="https://raretendo.github.io/img/logo.png">
-
+        <meta property="og:description" content="Game developer, Full stack developer and Application Developer. I have been programming for years and have always had an interest for it. Check out my website for more about me">
+        <meta property="og:image" content="./assets/img/logo.png">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <title>Raretendo | Programmer</title>
     </head>
 
     <body>
-        <div id="topbar">
-            <p id="topbarTxt">
-                <span style="color:rgb(255, 83, 83)">R</span>aretendo
-            </p>
+        <div class="main-info">
+            <img src="./assets/img/logo.png" alt="" class="main-img">
+            <h1 class="main-title">Raretendo</h1>
+            <h2 class="main-desc" id="js-desc"></h2>
         </div>
 
-        <div id="content">
-            <p>This site is under development</p>
+        <div class="section about">
+            <p class="section-title">👋 About Me</p>
+            <div class="section-body">
+                <p>
+                    Hello, I'm Raretendo. I'm a programmer fluent in HTML, CSS, JS/TS, Lua(u), C, C++, C#, Java, Python and Rust.
+                    I've been coding for about 3+ years with an extensive knowledge of the aforementioned languages. I specialise in  
+                    game development, full-stack development and bot development
+                </p>
+            </div>
+        </div>
+        <div class="section contact">
+            <p class="section-title">☎️ Social Links & Contact</p>
+            <div class="section-body">
+                <p>If you want to contact me, you can best reach me on either Discord or Twitter. Click on the links below to see my respective profiles</p>
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/Raretendoblox_" target="_blank">Twitter: @Raretendoblox_</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/users/323920868944248834" target="_blank">Discord: raretendo#7031</a>
+                    </li>
+                    <li>
+                        <a href="https://www.roblox.com/users/273093957/profile" target="_blank">Roblox: @Rare_tendo</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/raretendo" target="_blank">GitHub: raretendo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section projects">
+            <p class="section-title">📋 Projects</p>
+            <div class="section-body">
+                <div class="project-listing">
+                    <a href="https://github.com/raretendo/raretendo.github.io" target="_blank">
+                        <div class="section project">
+                            <p class="section-title sub">🌐 This website</p>
+                            <div class="section-body">
+                                <p>This website was made with HTML and vanilla CSS and JS</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.roblox.com/games/6695290393" target="_blank">
+                        <div class="section project">
+                            <p class="section-title sub">
+                                <img src="https://cdn.emojidex.com/emoji/px128/gun.png?1417134725" style="height: 1em">
+                                Untitled Game
+                            </p>
+                            <div class="section-body">
+                                <p>
+                                    My untitled game is a top-down shooter for casual and competitive players where you make use of crazy 
+                                    abilities to be victorious in a variety of game modes and round modifiers. It is currently in very early development.
+                                    I do not have a name for it yet, so it just stays as "Untitled Game". Available on the Roblox platform 
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    
+                    <div class="section project secret" id="secret-listing">
+                        <p class="section-title sub">❓ Secret Game</p>
+                        <div class="section-body">
+                            <p>
+                                Since you decided to visit my website, you will have the honour of witnessing a secret project of mine,
+                                a game of grandeur and excitment that no one that has not visited this site has seen, 
+                                just by clicking this section 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="theme-controller"></div>
+        <div id="secret-background"></div>
+        <div id="secret-body">
+            <p id="secret-close-button">X</p>
+            <p class="secret-title">Secret game trailer</p>
+            <div class="secret-video-cn">
+                <iframe class="secret-video" width="75%" height="75%" src="https://www.youtube.com/embed/Tt7bzxurJ1I" title="Secret trailer." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </body>
+
+    <script src="index.js" defer></script>
 </html>
